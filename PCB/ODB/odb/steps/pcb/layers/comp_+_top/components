@@ -1,0 +1,204 @@
+UNITS=INCH
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+
+#
+#Component attribute text strings
+#
+
+# CMP 0
+CMP 4 0.6681102 0.15 0 N L1 LQW15AN4N7C00D ;0=1,1=0.0000
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'LQW15AN4N7C00D'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 0.65 0.15 0 N 14 1 1
+TOP 1 0.6862204 0.15 0 N 1 1 2
+#
+# CMP 1
+CMP 3 0.7048282 0.2112928 0 N C2 GJM1555C1H3R9BB01D ;0=1,1=0.0000
+PRP Capacitance '3.9pF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'C0G'
+PRP Height '0.5mm'
+PRP Lead_Pitch '0.3mm'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.02inch'
+TOP 0 0.6859872 0.2112928 0 N 1 2 1
+TOP 1 0.7236693 0.2112928 0 N 18 23 2
+#
+# CMP 2
+CMP 2 0.825 0.585 270 N SW1 CUS-13TB ;0=1,1=0.0000
+PRP Actuator_Length '1.5mm'
+PRP Actuator_Material 'Nylon, Polyamide'
+PRP Contact_Current_Rating '100mA'
+PRP Contact_Plating 'Gold'
+PRP Contact_Resistance '70mO'
+PRP Contact_Style 'Non-Shorting'
+PRP Current_Rating '300mA'
+PRP Electrical_Life '10kcycles'
+PRP Height '1.6mm'
+PRP Life_(Cycles) '10kcycles'
+PRP Max_Operating_Temperature '70°C'
+PRP Max_Voltage_Rating_(DC) '20V'
+PRP Min_Operating_Temperature '-20°C'
+PRP Mount 'Surface Mount'
+PRP NexarPartId '85266946'
+PRP Number_of_Positions '3'
+PRP Operating_Force '1.7N'
+PRP Orientation 'Right Angle'
+PRP Packaging 'Tape & Reel (TR)'
+PRP Radiation_Hardening 'No'
+PRP RoHS 'Compliant'
+PRP Switch_Function 'On-On-On'
+PRP Switch_Travel '1.5mm'
+PRP Termination 'Gull Wing'
+PRP Throw_Configuration 'SP3T'
+PRP Voltage_Rating_(DC) '4V'
+TOP 0 0.7265748 0.4668898 270 N 3 0 1
+TOP 1 0.7265748 0.5259449 270 N 2 0 2
+TOP 2 0.7265748 0.6440551 270 N 4 2 3
+TOP 3 0.7265748 0.7031102 270 N 0 36 4
+TOP 4 0.7541339 0.3822441 270 N 18 27 5
+TOP 5 0.7541339 0.7877559 270 N 18 30 6
+TOP 6 0.836811 0.3822441 270 N 18 29 7
+TOP 7 0.836811 0.7877559 270 N 18 24 8
+TOP 8 0.7954724 0.6834252 270 N 0 29 empty-1
+TOP 9 0.7954724 0.4865748 270 N 0 28 empty-2
+#
+# CMP 3
+CMP 8 0.4287471 3.4139062 0 N J1 SDCardAdapter ;0=1,1=0.0000
+TOP 0 0.1424942 3.615 180 N 5 0 1
+TOP 1 0.2430959 3.615 180 N 16 0 2
+TOP 2 0.3436976 3.615 180 N 18 38 3
+TOP 3 0.4442993 3.615 180 N 4 1 4
+TOP 4 0.544901 3.615 180 N 6 0 5
+TOP 5 0.6455027 3.615 180 N 18 39 6
+TOP 6 0.7461044 3.6140157 180 N 17 0 7
+TOP 7 0.8304745 3.615 180 N 12 0 8
+TOP 8 0.0418925 3.5283858 180 N 13 0 9
+#
+# CMP 4
+CMP 6 0.4 1.035 135 N U1 317990687 ;0=1,1=0.0000
+PRP Mfr_Name 'BeagleBoard'
+PRP RefDes 'RefDes'
+PRP Type 'Type'
+TOP 0 0.6769298 1.1031384 225 N 15 0 1
+TOP 1 0.6421313 1.137937 225 N 18 34 2
+TOP 2 0.6073326 1.1727355 225 N 0 14 3
+TOP 3 0.572534 1.2075341 225 N 0 15 4
+TOP 4 0.5377355 1.2423326 225 N 0 13 5
+TOP 5 0.5029369 1.2771312 225 N 0 11 6
+TOP 6 0.4681384 1.3119297 225 N 0 12 7
+TOP 7 0.3318616 1.3119298 315 N 0 16 8
+TOP 8 0.297063 1.2771313 315 N 9 0 9
+TOP 9 0.2622645 1.2423326 315 N 11 1 10
+TOP 10 0.2274659 1.207534 315 N 0 20 11
+TOP 11 0.1926674 1.1727355 315 N 0 21 12
+TOP 12 0.1578688 1.1379369 315 N 0 19 13
+TOP 13 0.1230703 1.1031384 315 N 18 35 14
+TOP 14 0.1230702 0.9668616 225 N 1 0 15
+TOP 15 0.1578687 0.932063 225 N 18 32 16
+TOP 16 0.1926674 0.8972645 225 N 7 0 17
+TOP 17 0.227466 0.8624659 225 N 0 17 18
+TOP 18 0.2622645 0.8276674 225 N 0 18 19
+TOP 19 0.2970631 0.7928688 225 N 0 3 20
+TOP 20 0.3318616 0.7580703 225 N 0 4 21
+TOP 21 0.4681384 0.7580702 315 N 18 33 22
+TOP 22 0.502937 0.7928687 315 N 0 2 23
+TOP 23 0.5377355 0.8276674 315 N 0 0 24
+TOP 24 0.5725341 0.862466 315 N 0 1 25
+TOP 25 0.6073326 0.8972645 315 N 0 5 26
+TOP 26 0.6421312 0.9320631 315 N 0 9 27
+TOP 27 0.6769297 0.9668616 315 N 0 10 28
+#
+# CMP 5
+CMP 7 0.44 1.585 270 N R3 MMF25SFRE20R ;0=1,1=0.0000
+PRP Mfr_Name 'Yageo'
+PRP RefDes ''
+PRP Type ''
+TOP 0 0.44 1.516 270 N 9 1 1
+TOP 1 0.44 1.654 90 N 8 0 2
+#
+# CMP 6
+CMP 7 0.555 1.581 270 N R1 MMF25SFRE20R ;0=1,1=0.0000
+PRP Mfr_Name 'Yageo'
+PRP RefDes ''
+PRP Type ''
+TOP 0 0.555 1.512 270 N 11 0 1
+TOP 1 0.555 1.65 90 N 10 0 2
+#
+# CMP 7
+CMP 0 0.4009843 2.2155512 180 N J2 1140084168 ;0=1,1=0.0661
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/1140084168/Amphenol+FCI/view-part/?ref=eda'
+PRP MF 'Amphenol ICC'
+PRP MP '1140084168'
+PRP Package 'None'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/1140084168/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/1140084168/Amphenol+FCI/view-part/?ref=snap'
+PRP Value ''
+TOP 0 0.275 2.25 180 N 13 1 1
+TOP 1 0.3183071 2.25 180 N 5 1 2
+TOP 2 0.3616142 2.25 180 N 16 1 3
+TOP 3 0.4049213 2.25 180 N 4 0 4
+TOP 4 0.4482284 2.25 180 N 6 1 5
+TOP 5 0.4915355 2.25 180 N 18 26 6
+TOP 6 0.5348426 2.25 180 N 17 1 7
+TOP 7 0.5781497 2.25 180 N 12 1 8
+TOP 8 0.1814961 1.8248032 180 N 0 7 9
+TOP 9 0.622441 1.886811 180 N 0 6 10
+TOP 10 0.1785434 2.2450788 180 N 18 25 S1
+TOP 11 0.6253937 2.2450788 180 N 18 31 S2
+TOP 12 0.1657481 1.9202756 180 N 18 37 S3
+TOP 13 0.6352363 1.9458662 180 N 18 36 S4
+#
+# CMP 8
+CMP 9 0.3396063 0.155 180 N E1 ACAG1204-915-T ;0=1,1=0.0669
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/ACAG1204-915-T/Abracon+LLC/view-part/?ref=eda'
+PRP MF 'Abracon LLC'
+PRP MP 'ACAG1204-915-T'
+PRP Package 'None'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/ACAG1204-915-T/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/ACAG1204-915-T/Abracon+LLC/view-part/?ref=snap'
+PRP Value ''
+TOP 0 0.565 0.155 180 N 14 0 1
+TOP 1 0.1142126 0.155 180 N 0 8 2
+#
+# CMP 9
+CMP 1 0.28 1.6857874 270 N C1 FK18X5R1A475KR020 ;0=2,1=0.0000
+PRP Availability 'Unavailable'
+PRP MF '{_manufacturer_: u_TDK Corporation_}'
+PRP MP 'FK18X5R1A475KR020'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 0.28 1.6365748 270 N 15 1 1
+TOP 1 0.28 1.735 270 N 4 3 2
+#
